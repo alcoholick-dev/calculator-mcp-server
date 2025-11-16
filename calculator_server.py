@@ -14,8 +14,6 @@ from sympy import integrate as sympy_integrate
 # Create MCP Server
 app = FastMCP(
     name="Mathematical Calculator",
-    description="A server for complex mathematical calculations",
-    version="1.0.0",
     dependencies=["numpy", "scipy", "sympy", "matplotlib"],
 )
 
